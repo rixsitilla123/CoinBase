@@ -2,7 +2,7 @@ import React from 'react'
 
 function Transactions() {
 	return (
-		<div>Transactions</div>
+		<div className='text-white text-center mt-[60px]'>Transactions</div>
 	)
 }
 

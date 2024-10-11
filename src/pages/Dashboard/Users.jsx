@@ -2,7 +2,7 @@ import React from 'react'
 
 function Users() {
 	return (
-		<div>Users</div>
+		<div className='text-white text-center mt-[60px]'>Users</div>
 	)
 }
 

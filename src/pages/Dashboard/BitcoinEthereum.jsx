@@ -2,7 +2,7 @@ import React from 'react'
 
 function BitcoinEthereum() {
 	return (
-		<div>BitcoinEthereum</div>
+		<div className='text-white text-center mt-[60px]'>Bitcoin & Ethereum</div>
 	)
 }
 

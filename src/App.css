@@ -33,11 +33,37 @@ body{
 }
 
 .containers{
-	width: 1405px;
+	width: 1300px;
 	margin: 0 auto;
-	padding: 55px 0 95px;
 }
 
 .btn{
-	background: linear-gradient(184.50deg, #fd749b 11.432%,#281ac8 116.004%);
+	background-image: linear-gradient(184deg, #fd749b 11%,#281ac8 116%);
+}
+
+.active{
+	background-image: linear-gradient(184deg, rgb(253, 116, 155) 24%,rgb(40, 26, 200) 93%);
+}
+
+.sidebarItemCount{
+	background-image: linear-gradient(184deg, rgb(253, 116, 155) -10%,rgb(40, 26, 200) 153%);
+}
+
+.ant-btn{
+	background-image: linear-gradient(184deg, rgb(253, 116, 155) -10%,rgb(40, 26, 200) 153%);
+	color: #fff;
+	font-weight: 600;
+	border: none !important;
+}
+
+.ant-btn:hover{
+	background-image: linear-gradient(184deg, rgb(253, 116, 155) -10%,rgb(40, 26, 200) 153%) !important;
+	color: #fff !important;
+}
+
+.agents-searchInput{
+	background-image: url(./assets/images/AgentsSearchIcon.svg);
+	background-repeat: no-repeat;
+	background-size: 14px 14px;
+	background-position: 27px center;
 }

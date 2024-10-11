@@ -2,7 +2,7 @@ import React from 'react'
 
 function Statistics() {
 	return (
-		<div>Statistics</div>
+		<div className='text-white text-center mt-[60px]'>Statistics</div>
 	)
 }
 
