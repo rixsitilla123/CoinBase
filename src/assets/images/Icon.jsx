@@ -220,4 +220,15 @@ function AgentsIcon3() {
 	)
 }
 
-export { SiteLogo, HeaderLogo, HeaderIcon1, HeaderIcon2, SidebarIcon1, SidebarIcon2, SidebarIcon3, SidebarIcon4, SidebarIcon5, SidebarIcon6, SidebarIcon7, SidebarIcon8, SidebarIcon9, AgentsIcon1, AgentsIcon2, AgentsIcon3 }
+function AgentsAddIcon() {
+	return (
+		<svg width="47" height="47" viewBox="0 0 47.2832 47.2793" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<path id="Path-124_10_" d="M0.5 33.28L15.92 19.78L29.42 33.28" stroke="#FFFFFF" strokeOpacity="1.000000" strokeWidth="1.000000" strokeLinejoin="round" strokeLinecap="round" />
+			<path id="Rectangle-24_7_" d="M39.06 0.5C43.31 0.5 46.78 3.97 46.78 8.21L46.78 39.06C46.78 43.3 43.31 46.77 39.06 46.77L8.21 46.77C3.97 46.77 0.5 43.3 0.5 39.06L0.5 8.21C0.5 3.97 3.97 0.5 8.21 0.5L39.06 0.5Z" stroke="#FFFFFF" strokeOpacity="1.000000" strokeWidth="1.000000" strokeLinejoin="round" />
+			<path id="Path-125_10_" d="M46.78 33.28L39.06 25.56L29.61 33.47" stroke="#FFFFFF" strokeOpacity="1.000000" strokeWidth="1.000000" strokeLinejoin="round" strokeLinecap="round" />
+			<path id="Oval-24_10_" d="M30.39 21.71C27.72 21.71 25.57 19.55 25.57 16.89C25.57 14.22 27.72 12.07 30.39 12.07C33.05 12.07 35.21 14.22 35.21 16.89C35.21 19.55 33.05 21.71 30.39 21.71Z" stroke="#FFFFFF" strokeOpacity="1.000000" strokeWidth="1.000000" strokeLinejoin="round" />
+		</svg>
+	)
+}
+
+export { SiteLogo, HeaderLogo, HeaderIcon1, HeaderIcon2, SidebarIcon1, SidebarIcon2, SidebarIcon3, SidebarIcon4, SidebarIcon5, SidebarIcon6, SidebarIcon7, SidebarIcon8, SidebarIcon9, AgentsIcon1, AgentsIcon2, AgentsIcon3, AgentsAddIcon }

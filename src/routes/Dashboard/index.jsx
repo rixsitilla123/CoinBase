@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Header from '../../components/Header'
 import Sidebar from '../../components/Sidebar'
-import { Overview, Users, Agents, Cards, BitcoinEthereum, Payments, Transactions, Statistics } from '../../pages/Dashboard/index'
+import { Overview, Users, Agents, Cards, BitcoinEthereum, Payments, Transactions, Statistics, AgentsAdd } from '../../pages/Dashboard/index'
 
 function DashboardRoutes() {
 	return (
@@ -15,6 +15,7 @@ function DashboardRoutes() {
 						<Route path='/' element={<Overview />} />
 						<Route path='/users' element={<Users />} />
 						<Route path='/agents' element={<Agents />} />
+						<Route path='/agents/add' element={<AgentsAdd />} />
 						<Route path='/cards' element={<Cards />} />
 						<Route path='/bitcoin-ethereum' element={<BitcoinEthereum />} />
 						<Route path='/payments' element={<Payments />} />
