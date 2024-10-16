@@ -52,12 +52,12 @@ body{
 }
 
 .containers{
-	width: 1300px;
+	width: 1310px;
 	margin: 0 auto;
 }
 
 .btn{
-	background-image: linear-gradient(184deg, #fd749b 11%,#281ac8 116%);
+	background: linear-gradient(184.50deg, rgb(253, 116, 155) 11.432%,rgb(40, 26, 200) 116.004%);
 }
 
 .active{

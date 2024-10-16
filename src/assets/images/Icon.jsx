@@ -231,4 +231,20 @@ function AgentsAddIcon() {
 	)
 }
 
-export { SiteLogo, HeaderLogo, HeaderIcon1, HeaderIcon2, SidebarIcon1, SidebarIcon2, SidebarIcon3, SidebarIcon4, SidebarIcon5, SidebarIcon6, SidebarIcon7, SidebarIcon8, SidebarIcon9, AgentsIcon1, AgentsIcon2, AgentsIcon3, AgentsAddIcon }
+function AgentMoreEditIcon() {
+	return (
+		<svg width="12.000000" height="12.000000" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+			<path id="Vector" d="M11.56 1.31L10.68 0.43C10.38 0.14 10 0 9.62 0C9.23 0 8.85 0.14 8.56 0.43L0.3 8.69L0 11.37C-0.04 11.71 0.23 12 0.56 12C0.58 12 0.6 11.99 0.62 11.99L3.29 11.7L11.56 3.43C12.14 2.85 12.14 1.9 11.56 1.31ZM2.95 10.98L0.77 11.22L1.01 9.04L7.2 2.85L9.14 4.79L2.95 10.98ZM11.03 2.9L9.67 4.26L7.73 2.32L9.08 0.96C9.23 0.82 9.41 0.75 9.62 0.75C9.82 0.75 10 0.82 10.15 0.96L11.03 1.84C11.32 2.14 11.32 2.61 11.03 2.9Z" fill="#FFFFFF" fillOpacity="1.000000" fillRule="nonzero" />
+		</svg>
+	)
+}
+
+function ArrowBackIcon() {
+	return (
+		<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" className="bi bi-arrow-left-circle cursor-pointer" viewBox="0 0 16 16">
+			<path fillRule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+		</svg>
+	)
+}
+
+export { SiteLogo, HeaderLogo, HeaderIcon1, HeaderIcon2, SidebarIcon1, SidebarIcon2, SidebarIcon3, SidebarIcon4, SidebarIcon5, SidebarIcon6, SidebarIcon7, SidebarIcon8, SidebarIcon9, AgentsIcon1, AgentsIcon2, AgentsIcon3, AgentsAddIcon, AgentMoreEditIcon, ArrowBackIcon }
